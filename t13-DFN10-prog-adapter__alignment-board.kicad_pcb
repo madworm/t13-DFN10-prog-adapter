@@ -3,9 +3,9 @@
   (general
     (links 0)
     (no_connects 0)
-    (area 139.15099 91.5068 153.96501 110.7312)
+    (area 155.15299 92.0148 169.96701 111.2392)
     (thickness 1.6)
-    (drawings 22)
+    (drawings 25)
     (tracks 0)
     (zones 0)
     (modules 9)
@@ -27,6 +27,7 @@
     (21 F.SilkS user)
     (22 B.Mask user)
     (23 F.Mask user)
+    (26 Eco1.User user)
     (28 Edge.Cuts user)
   )
 
@@ -58,7 +59,7 @@
     (aux_axis_origin 0 0)
     (visible_elements FFFFFF7F)
     (pcbplotparams
-      (layerselection 284196865)
+      (layerselection 351305729)
       (usegerberextensions true)
       (excludeedgelayer true)
       (linewidth 0.150000)
@@ -97,7 +98,7 @@
   )
 
   (module my_parts:MADW__SIL-1 (layer F.Cu) (tedit 53272EA1) (tstamp 53270B35)
-    (at 151.638 107.442)
+    (at 167.64 107.95)
     (descr "Connecteurs 2 pins")
     (tags "CONN DEV")
     (fp_text reference P? (at 0 -2.032) (layer F.SilkS) hide
@@ -110,7 +111,7 @@
   )
 
   (module my_parts:MADW__SIL-1 (layer F.Cu) (tedit 53272E9C) (tstamp 53270B25)
-    (at 151.638 94.742)
+    (at 167.64 95.25)
     (descr "Connecteurs 2 pins")
     (tags "CONN DEV")
     (fp_text reference P? (at 0 -2.032) (layer F.SilkS) hide
@@ -123,7 +124,7 @@
   )
 
   (module my_parts:MADW__SIL-1 (layer F.Cu) (tedit 53272E97) (tstamp 53270B1D)
-    (at 141.478 94.742)
+    (at 157.48 95.25)
     (descr "Connecteurs 2 pins")
     (tags "CONN DEV")
     (fp_text reference P? (at 0 -2.032) (layer F.SilkS) hide
@@ -136,7 +137,7 @@
   )
 
   (module my_parts:MADW__SIL-1 (layer F.Cu) (tedit 53270332) (tstamp 53270EE7)
-    (at 145.0594 102.5906)
+    (at 161.0614 103.0986)
     (descr "Connecteurs 2 pins")
     (tags "CONN DEV")
     (fp_text reference P? (at 0 -2.032) (layer F.SilkS) hide
@@ -149,7 +150,7 @@
   )
 
   (module my_parts:MADW__SIL-1 (layer F.Cu) (tedit 53270332) (tstamp 53270EE3)
-    (at 148.0566 102.5906)
+    (at 164.0586 103.0986)
     (descr "Connecteurs 2 pins")
     (tags "CONN DEV")
     (fp_text reference P? (at 0 -2.032) (layer F.SilkS) hide
@@ -162,7 +163,7 @@
   )
 
   (module my_parts:MADW__SIL-1 (layer F.Cu) (tedit 53270332) (tstamp 53270EDF)
-    (at 148.0566 99.5934)
+    (at 164.0586 100.1014)
     (descr "Connecteurs 2 pins")
     (tags "CONN DEV")
     (fp_text reference P? (at 0 -2.032) (layer F.SilkS) hide
@@ -175,7 +176,7 @@
   )
 
   (module my_parts:MADW__SIL-1 (layer F.Cu) (tedit 53270332) (tstamp 53270E17)
-    (at 145.0594 99.5934)
+    (at 161.0614 100.1014)
     (descr "Connecteurs 2 pins")
     (tags "CONN DEV")
     (fp_text reference P? (at 0 -2.032) (layer F.SilkS) hide
@@ -188,7 +189,7 @@
   )
 
   (module my_parts:MADW__MLF10 (layer F.Cu) (tedit 53270302) (tstamp 53270B07)
-    (at 146.558 101.092 90)
+    (at 162.56 101.6 90)
     (path /5326F946)
     (attr smd)
     (fp_text reference P3 (at 0 -2.9 90) (layer F.SilkS) hide
@@ -204,7 +205,7 @@
   )
 
   (module my_parts:MADW__SIL-1 (layer F.Cu) (tedit 53272EA6) (tstamp 53270B2D)
-    (at 141.478 107.442)
+    (at 157.48 107.95)
     (descr "Connecteurs 2 pins")
     (tags "CONN DEV")
     (fp_text reference P? (at 0 -2.032) (layer F.SilkS) hide
@@ -220,35 +221,38 @@
     (pad 1 thru_hole rect (at 0 0) (size 1.65 1.65) (drill 0.6) (layers *.Cu *.Mask F.SilkS))
   )
 
-  (gr_line (start 145.2118 101.0158) (end 145.2118 101.1682) (angle 90) (layer Edge.Cuts) (width 0.1))
-  (gr_line (start 146.4818 102.4382) (end 146.6342 102.4382) (angle 90) (layer Edge.Cuts) (width 0.1))
-  (gr_line (start 147.9042 101.0158) (end 147.9042 101.1682) (angle 90) (layer Edge.Cuts) (width 0.1))
-  (gr_line (start 146.4818 99.7458) (end 146.6342 99.7458) (angle 90) (layer Edge.Cuts) (width 0.1))
-  (gr_arc (start 146.4818 101.1682) (end 146.4818 102.4382) (angle 90) (layer Edge.Cuts) (width 0.1))
-  (gr_arc (start 146.6342 101.1682) (end 147.9042 101.1682) (angle 90) (layer Edge.Cuts) (width 0.1))
-  (gr_arc (start 146.6342 101.0158) (end 146.6342 99.7458) (angle 90) (layer Edge.Cuts) (width 0.1))
-  (gr_arc (start 146.4818 101.0158) (end 145.2118 101.0158) (angle 90) (layer Edge.Cuts) (width 0.1))
-  (gr_line (start 148.0566 99.5934) (end 148.0566 99.568) (angle 90) (layer Eco1.User) (width 0.2))
-  (gr_text V0.10.b (at 146.6 105.2) (layer F.SilkS)
+  (gr_line (start 161.06 103.1) (end 161.06 100.1) (angle 90) (layer Eco1.User) (width 0.1))
+  (gr_line (start 164.06 103.1) (end 161.06 103.1) (angle 90) (layer Eco1.User) (width 0.1))
+  (gr_line (start 164.06 100.1) (end 164.06 103.1) (angle 90) (layer Eco1.User) (width 0.1))
+  (gr_line (start 161.06 100.1) (end 164.06 100.1) (angle 90) (layer Eco1.User) (width 0.1))
+  (gr_line (start 161.2138 101.5238) (end 161.2138 101.6762) (angle 90) (layer Edge.Cuts) (width 0.1))
+  (gr_line (start 162.4838 102.9462) (end 162.6362 102.9462) (angle 90) (layer Edge.Cuts) (width 0.1))
+  (gr_line (start 163.9062 101.5238) (end 163.9062 101.6762) (angle 90) (layer Edge.Cuts) (width 0.1))
+  (gr_line (start 162.4838 100.2538) (end 162.6362 100.2538) (angle 90) (layer Edge.Cuts) (width 0.1))
+  (gr_arc (start 162.4838 101.6762) (end 162.4838 102.9462) (angle 90) (layer Edge.Cuts) (width 0.1))
+  (gr_arc (start 162.6362 101.6762) (end 163.9062 101.6762) (angle 90) (layer Edge.Cuts) (width 0.1))
+  (gr_arc (start 162.6362 101.5238) (end 162.6362 100.2538) (angle 90) (layer Edge.Cuts) (width 0.1))
+  (gr_arc (start 162.4838 101.5238) (end 161.2138 101.5238) (angle 90) (layer Edge.Cuts) (width 0.1))
+  (gr_text V0.10.b (at 162.602 105.708) (layer F.SilkS)
     (effects (font (size 1 1) (thickness 0.25)))
   )
-  (gr_text 10...6 (at 146.4056 94.742) (layer F.SilkS) (tstamp 532714B7)
+  (gr_text 10...6 (at 162.4076 95.25) (layer F.SilkS) (tstamp 532714B7)
     (effects (font (size 1.2 1.2) (thickness 0.25)))
   )
-  (gr_text 1...5 (at 146.558 107.4674) (layer F.SilkS)
+  (gr_text 1...5 (at 162.56 107.9754) (layer F.SilkS)
     (effects (font (size 1.2 1.2) (thickness 0.25)))
   )
-  (gr_circle (center 144.2974 103.3526) (end 144.5006 103.4288) (layer F.SilkS) (width 0.2))
-  (gr_line (start 139.954 109.474) (end 139.954 92.71) (angle 90) (layer Edge.Cuts) (width 0.1))
-  (gr_line (start 153.162 109.474) (end 139.954 109.474) (angle 90) (layer Edge.Cuts) (width 0.1))
-  (gr_line (start 153.162 92.71) (end 153.162 109.474) (angle 90) (layer Edge.Cuts) (width 0.1))
-  (gr_line (start 139.954 92.71) (end 153.162 92.71) (angle 90) (layer Edge.Cuts) (width 0.1))
-  (gr_text "t13-DFN10 P.A." (at 146.6 97.4) (layer F.SilkS)
+  (gr_circle (center 160.2994 103.8606) (end 160.5026 103.9368) (layer F.SilkS) (width 0.2))
+  (gr_line (start 155.956 109.982) (end 155.956 93.218) (angle 90) (layer Edge.Cuts) (width 0.1))
+  (gr_line (start 169.164 109.982) (end 155.956 109.982) (angle 90) (layer Edge.Cuts) (width 0.1))
+  (gr_line (start 169.164 93.218) (end 169.164 109.982) (angle 90) (layer Edge.Cuts) (width 0.1))
+  (gr_line (start 155.956 93.218) (end 169.164 93.218) (angle 90) (layer Edge.Cuts) (width 0.1))
+  (gr_text "t13-DFN10 P.A." (at 162.602 97.908) (layer F.SilkS)
     (effects (font (size 1 1) (thickness 0.25)))
   )
-  (gr_line (start 140.208 92.964) (end 152.908 92.964) (angle 90) (layer F.SilkS) (width 0.2) (tstamp 53270B50))
-  (gr_line (start 152.908 92.964) (end 152.908 109.22) (angle 90) (layer F.SilkS) (width 0.2) (tstamp 53270B4F))
-  (gr_line (start 152.908 109.22) (end 140.208 109.22) (angle 90) (layer F.SilkS) (width 0.2) (tstamp 53270B4E))
-  (gr_line (start 140.208 109.22) (end 140.208 92.964) (angle 90) (layer F.SilkS) (width 0.2) (tstamp 53270B4D))
+  (gr_line (start 156.21 93.472) (end 168.91 93.472) (angle 90) (layer F.SilkS) (width 0.2) (tstamp 53270B50))
+  (gr_line (start 168.91 93.472) (end 168.91 109.728) (angle 90) (layer F.SilkS) (width 0.2) (tstamp 53270B4F))
+  (gr_line (start 168.91 109.728) (end 156.21 109.728) (angle 90) (layer F.SilkS) (width 0.2) (tstamp 53270B4E))
+  (gr_line (start 156.21 109.728) (end 156.21 93.472) (angle 90) (layer F.SilkS) (width 0.2) (tstamp 53270B4D))
 
 )
