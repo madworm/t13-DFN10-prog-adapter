@@ -5,10 +5,10 @@
     (no_connects 0)
     (area 139.15099 91.5068 153.96501 110.7312)
     (thickness 1.6)
-    (drawings 14)
+    (drawings 22)
     (tracks 0)
     (zones 0)
-    (modules 21)
+    (modules 9)
     (nets 1)
   )
 
@@ -135,162 +135,6 @@
     (pad 1 thru_hole rect (at 0 0) (size 1.65 1.65) (drill 0.6) (layers *.Cu *.Mask F.SilkS))
   )
 
-  (module my_parts:MADW__SIL-1 (layer F.Cu) (tedit 53270444) (tstamp 53270FAB)
-    (at 145.4658 101.7778 90)
-    (descr "Connecteurs 2 pins")
-    (tags "CONN DEV")
-    (fp_text reference P? (at 0 -2.032 90) (layer F.SilkS) hide
-      (effects (font (size 1 1) (thickness 0.2)))
-    )
-    (fp_text value VAL** (at 0 2.286 90) (layer F.SilkS) hide
-      (effects (font (size 1 1) (thickness 0.2)))
-    )
-    (pad "" np_thru_hole circle (at 0 0 90) (size 0.3302 0.3302) (drill 0.3302) (layers *.Cu *.Mask F.SilkS))
-  )
-
-  (module my_parts:MADW__SIL-1 (layer F.Cu) (tedit 53270444) (tstamp 53270FA7)
-    (at 145.4658 100.4062 90)
-    (descr "Connecteurs 2 pins")
-    (tags "CONN DEV")
-    (fp_text reference P? (at 0 -2.032 90) (layer F.SilkS) hide
-      (effects (font (size 1 1) (thickness 0.2)))
-    )
-    (fp_text value VAL** (at 0 2.286 90) (layer F.SilkS) hide
-      (effects (font (size 1 1) (thickness 0.2)))
-    )
-    (pad "" np_thru_hole circle (at 0 0 90) (size 0.3302 0.3302) (drill 0.3302) (layers *.Cu *.Mask F.SilkS))
-  )
-
-  (module my_parts:MADW__SIL-1 (layer F.Cu) (tedit 53270444) (tstamp 53270FA3)
-    (at 145.4658 101.092 90)
-    (descr "Connecteurs 2 pins")
-    (tags "CONN DEV")
-    (fp_text reference P? (at 0 -2.032 90) (layer F.SilkS) hide
-      (effects (font (size 1 1) (thickness 0.2)))
-    )
-    (fp_text value VAL** (at 0 2.286 90) (layer F.SilkS) hide
-      (effects (font (size 1 1) (thickness 0.2)))
-    )
-    (pad "" np_thru_hole circle (at 0 0 90) (size 0.3302 0.3302) (drill 0.3302) (layers *.Cu *.Mask F.SilkS))
-  )
-
-  (module my_parts:MADW__SIL-1 (layer F.Cu) (tedit 53270444) (tstamp 53270F60)
-    (at 147.6756 101.092 90)
-    (descr "Connecteurs 2 pins")
-    (tags "CONN DEV")
-    (fp_text reference P? (at 0 -2.032 90) (layer F.SilkS) hide
-      (effects (font (size 1 1) (thickness 0.2)))
-    )
-    (fp_text value VAL** (at 0 2.286 90) (layer F.SilkS) hide
-      (effects (font (size 1 1) (thickness 0.2)))
-    )
-    (pad "" np_thru_hole circle (at 0 0 90) (size 0.3302 0.3302) (drill 0.3302) (layers *.Cu *.Mask F.SilkS))
-  )
-
-  (module my_parts:MADW__SIL-1 (layer F.Cu) (tedit 53270444) (tstamp 53270F5C)
-    (at 147.6756 100.4062 90)
-    (descr "Connecteurs 2 pins")
-    (tags "CONN DEV")
-    (fp_text reference P? (at 0 -2.032 90) (layer F.SilkS) hide
-      (effects (font (size 1 1) (thickness 0.2)))
-    )
-    (fp_text value VAL** (at 0 2.286 90) (layer F.SilkS) hide
-      (effects (font (size 1 1) (thickness 0.2)))
-    )
-    (pad "" np_thru_hole circle (at 0 0 90) (size 0.3302 0.3302) (drill 0.3302) (layers *.Cu *.Mask F.SilkS))
-  )
-
-  (module my_parts:MADW__SIL-1 (layer F.Cu) (tedit 53270444) (tstamp 53270F58)
-    (at 147.6756 101.7778 90)
-    (descr "Connecteurs 2 pins")
-    (tags "CONN DEV")
-    (fp_text reference P? (at 0 -2.032 90) (layer F.SilkS) hide
-      (effects (font (size 1 1) (thickness 0.2)))
-    )
-    (fp_text value VAL** (at 0 2.286 90) (layer F.SilkS) hide
-      (effects (font (size 1 1) (thickness 0.2)))
-    )
-    (pad "" np_thru_hole circle (at 0 0 90) (size 0.3302 0.3302) (drill 0.3302) (layers *.Cu *.Mask F.SilkS))
-  )
-
-  (module my_parts:MADW__SIL-1 (layer F.Cu) (tedit 53270444) (tstamp 53270F54)
-    (at 145.8722 102.2096)
-    (descr "Connecteurs 2 pins")
-    (tags "CONN DEV")
-    (fp_text reference P? (at 0 -2.032) (layer F.SilkS) hide
-      (effects (font (size 1 1) (thickness 0.2)))
-    )
-    (fp_text value VAL** (at 0 2.286) (layer F.SilkS) hide
-      (effects (font (size 1 1) (thickness 0.2)))
-    )
-    (pad "" np_thru_hole circle (at 0 0) (size 0.3302 0.3302) (drill 0.3302) (layers *.Cu *.Mask F.SilkS))
-  )
-
-  (module my_parts:MADW__SIL-1 (layer F.Cu) (tedit 53270444) (tstamp 53270F50)
-    (at 147.2438 102.2096)
-    (descr "Connecteurs 2 pins")
-    (tags "CONN DEV")
-    (fp_text reference P? (at 0 -2.032) (layer F.SilkS) hide
-      (effects (font (size 1 1) (thickness 0.2)))
-    )
-    (fp_text value VAL** (at 0 2.286) (layer F.SilkS) hide
-      (effects (font (size 1 1) (thickness 0.2)))
-    )
-    (pad "" np_thru_hole circle (at 0 0) (size 0.3302 0.3302) (drill 0.3302) (layers *.Cu *.Mask F.SilkS))
-  )
-
-  (module my_parts:MADW__SIL-1 (layer F.Cu) (tedit 53270444) (tstamp 53270F4C)
-    (at 146.558 102.2096)
-    (descr "Connecteurs 2 pins")
-    (tags "CONN DEV")
-    (fp_text reference P? (at 0 -2.032) (layer F.SilkS) hide
-      (effects (font (size 1 1) (thickness 0.2)))
-    )
-    (fp_text value VAL** (at 0 2.286) (layer F.SilkS) hide
-      (effects (font (size 1 1) (thickness 0.2)))
-    )
-    (pad "" np_thru_hole circle (at 0 0) (size 0.3302 0.3302) (drill 0.3302) (layers *.Cu *.Mask F.SilkS))
-  )
-
-  (module my_parts:MADW__SIL-1 (layer F.Cu) (tedit 53270444) (tstamp 53270F31)
-    (at 146.558 99.9744)
-    (descr "Connecteurs 2 pins")
-    (tags "CONN DEV")
-    (fp_text reference P? (at 0 -2.032) (layer F.SilkS) hide
-      (effects (font (size 1 1) (thickness 0.2)))
-    )
-    (fp_text value VAL** (at 0 2.286) (layer F.SilkS) hide
-      (effects (font (size 1 1) (thickness 0.2)))
-    )
-    (pad "" np_thru_hole circle (at 0 0) (size 0.3302 0.3302) (drill 0.3302) (layers *.Cu *.Mask F.SilkS))
-  )
-
-  (module my_parts:MADW__SIL-1 (layer F.Cu) (tedit 53270444) (tstamp 53270F2D)
-    (at 147.2438 99.9744)
-    (descr "Connecteurs 2 pins")
-    (tags "CONN DEV")
-    (fp_text reference P? (at 0 -2.032) (layer F.SilkS) hide
-      (effects (font (size 1 1) (thickness 0.2)))
-    )
-    (fp_text value VAL** (at 0 2.286) (layer F.SilkS) hide
-      (effects (font (size 1 1) (thickness 0.2)))
-    )
-    (pad "" np_thru_hole circle (at 0 0) (size 0.3302 0.3302) (drill 0.3302) (layers *.Cu *.Mask F.SilkS))
-  )
-
-  (module my_parts:MADW__SIL-1 (layer F.Cu) (tedit 53270444) (tstamp 53270F15)
-    (at 145.8722 99.9744)
-    (descr "Connecteurs 2 pins")
-    (tags "CONN DEV")
-    (fp_text reference P? (at 0 -2.032) (layer F.SilkS) hide
-      (effects (font (size 1 1) (thickness 0.2)))
-    )
-    (fp_text value VAL** (at 0 2.286) (layer F.SilkS) hide
-      (effects (font (size 1 1) (thickness 0.2)))
-    )
-    (pad "" np_thru_hole circle (at 0 0) (size 0.3302 0.3302) (drill 0.3302) (layers *.Cu *.Mask F.SilkS))
-  )
-
   (module my_parts:MADW__SIL-1 (layer F.Cu) (tedit 53270332) (tstamp 53270EE7)
     (at 145.0594 102.5906)
     (descr "Connecteurs 2 pins")
@@ -376,9 +220,15 @@
     (pad 1 thru_hole rect (at 0 0) (size 1.65 1.65) (drill 0.6) (layers *.Cu *.Mask F.SilkS))
   )
 
-  (gr_text X (at 146.6 101.2) (layer F.SilkS)
-    (effects (font (size 1.2 1.2) (thickness 0.3)) (justify mirror))
-  )
+  (gr_line (start 145.2118 101.0158) (end 145.2118 101.1682) (angle 90) (layer Edge.Cuts) (width 0.1))
+  (gr_line (start 146.4818 102.4382) (end 146.6342 102.4382) (angle 90) (layer Edge.Cuts) (width 0.1))
+  (gr_line (start 147.9042 101.0158) (end 147.9042 101.1682) (angle 90) (layer Edge.Cuts) (width 0.1))
+  (gr_line (start 146.4818 99.7458) (end 146.6342 99.7458) (angle 90) (layer Edge.Cuts) (width 0.1))
+  (gr_arc (start 146.4818 101.1682) (end 146.4818 102.4382) (angle 90) (layer Edge.Cuts) (width 0.1))
+  (gr_arc (start 146.6342 101.1682) (end 147.9042 101.1682) (angle 90) (layer Edge.Cuts) (width 0.1))
+  (gr_arc (start 146.6342 101.0158) (end 146.6342 99.7458) (angle 90) (layer Edge.Cuts) (width 0.1))
+  (gr_arc (start 146.4818 101.0158) (end 145.2118 101.0158) (angle 90) (layer Edge.Cuts) (width 0.1))
+  (gr_line (start 148.0566 99.5934) (end 148.0566 99.568) (angle 90) (layer Eco1.User) (width 0.2))
   (gr_text V0.10.b (at 146.6 105.2) (layer F.SilkS)
     (effects (font (size 1 1) (thickness 0.25)))
   )
