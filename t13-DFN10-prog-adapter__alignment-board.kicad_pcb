@@ -1,11 +1,11 @@
-(kicad_pcb (version 3) (host pcbnew "(2014-03-16 BZR 4752)-product")
+(kicad_pcb (version 3) (host pcbnew "(2014-03-14 BZR 4750)-product")
 
   (general
     (links 0)
     (no_connects 0)
     (area 139.15099 91.5068 153.96501 110.7312)
     (thickness 1.6)
-    (drawings 13)
+    (drawings 14)
     (tracks 0)
     (zones 0)
     (modules 21)
@@ -14,9 +14,9 @@
 
   (page A4)
   (title_block
-    (title "ATtiny13 DFN10 programming adapter")
+    (title "ATtiny13 DFN10 programming adapter - alignment board")
     (date "17 Mar 2014")
-    (rev 0.10.a)
+    (rev 0.10.b)
     (company "2014 - blog.spitzenpfeil.org")
   )
 
@@ -52,8 +52,8 @@
     (mod_edge_width 0.2)
     (mod_text_size 1 1)
     (mod_text_width 0.15)
-    (pad_size 0.3302 0.3302)
-    (pad_drill 0.3302)
+    (pad_size 1.65 1.65)
+    (pad_drill 0.6)
     (pad_to_mask_clearance 0)
     (aux_axis_origin 0 0)
     (visible_elements FFFFFF7F)
@@ -96,7 +96,7 @@
     (uvia_drill 0.127)
   )
 
-  (module my_parts:MADW__SIL-1 (layer F.Cu) (tedit 532713D1) (tstamp 53270B35)
+  (module my_parts:MADW__SIL-1 (layer F.Cu) (tedit 53272EA1) (tstamp 53270B35)
     (at 151.638 107.442)
     (descr "Connecteurs 2 pins")
     (tags "CONN DEV")
@@ -106,10 +106,10 @@
     (fp_text value VAL** (at 0 2.286) (layer F.SilkS) hide
       (effects (font (size 1 1) (thickness 0.2)))
     )
-    (pad 1 thru_hole rect (at 0 0) (size 1.65 1.65) (drill 0.508) (layers *.Cu *.Mask F.SilkS))
+    (pad 1 thru_hole rect (at 0 0) (size 1.65 1.65) (drill 0.6) (layers *.Cu *.Mask F.SilkS))
   )
 
-  (module my_parts:MADW__SIL-1 (layer F.Cu) (tedit 532713C7) (tstamp 53270B25)
+  (module my_parts:MADW__SIL-1 (layer F.Cu) (tedit 53272E9C) (tstamp 53270B25)
     (at 151.638 94.742)
     (descr "Connecteurs 2 pins")
     (tags "CONN DEV")
@@ -119,10 +119,10 @@
     (fp_text value VAL** (at 0 2.286) (layer F.SilkS) hide
       (effects (font (size 1 1) (thickness 0.2)))
     )
-    (pad 1 thru_hole rect (at 0 0) (size 1.65 1.65) (drill 0.508) (layers *.Cu *.Mask F.SilkS))
+    (pad 1 thru_hole rect (at 0 0) (size 1.65 1.65) (drill 0.6) (layers *.Cu *.Mask F.SilkS))
   )
 
-  (module my_parts:MADW__SIL-1 (layer F.Cu) (tedit 532713BE) (tstamp 53270B1D)
+  (module my_parts:MADW__SIL-1 (layer F.Cu) (tedit 53272E97) (tstamp 53270B1D)
     (at 141.478 94.742)
     (descr "Connecteurs 2 pins")
     (tags "CONN DEV")
@@ -132,7 +132,7 @@
     (fp_text value VAL** (at 0 2.286) (layer F.SilkS) hide
       (effects (font (size 1 1) (thickness 0.2)))
     )
-    (pad 1 thru_hole rect (at 0 0) (size 1.65 1.65) (drill 0.508) (layers *.Cu *.Mask F.SilkS))
+    (pad 1 thru_hole rect (at 0 0) (size 1.65 1.65) (drill 0.6) (layers *.Cu *.Mask F.SilkS))
   )
 
   (module my_parts:MADW__SIL-1 (layer F.Cu) (tedit 53270444) (tstamp 53270FAB)
@@ -359,7 +359,7 @@
     (fp_line (start -1.5 1.5) (end -1.5 -1.5) (layer F.SilkS) (width 0.2))
   )
 
-  (module my_parts:MADW__SIL-1 (layer F.Cu) (tedit 5326FF09) (tstamp 53270B2D)
+  (module my_parts:MADW__SIL-1 (layer F.Cu) (tedit 53272EA6) (tstamp 53270B2D)
     (at 141.478 107.442)
     (descr "Connecteurs 2 pins")
     (tags "CONN DEV")
@@ -373,9 +373,15 @@
     (fp_line (start -1.27 -1.27) (end 1.27 -1.27) (layer F.SilkS) (width 0.2))
     (fp_line (start 1.27 -1.27) (end 1.27 1.27) (layer F.SilkS) (width 0.2))
     (fp_line (start -1.27 1.27) (end -1.27 -1.27) (layer F.SilkS) (width 0.2))
-    (pad 1 thru_hole rect (at 0 0) (size 1.65 1.65) (drill 0.508) (layers *.Cu *.Mask F.SilkS))
+    (pad 1 thru_hole rect (at 0 0) (size 1.65 1.65) (drill 0.6) (layers *.Cu *.Mask F.SilkS))
   )
 
+  (gr_text X (at 146.6 101.2) (layer F.SilkS)
+    (effects (font (size 1.2 1.2) (thickness 0.3)) (justify mirror))
+  )
+  (gr_text V0.10.b (at 146.6 105.2) (layer F.SilkS)
+    (effects (font (size 1 1) (thickness 0.25)))
+  )
   (gr_text 10...6 (at 146.4056 94.742) (layer F.SilkS) (tstamp 532714B7)
     (effects (font (size 1.2 1.2) (thickness 0.25)))
   )
@@ -387,11 +393,8 @@
   (gr_line (start 153.162 109.474) (end 139.954 109.474) (angle 90) (layer Edge.Cuts) (width 0.1))
   (gr_line (start 153.162 92.71) (end 153.162 109.474) (angle 90) (layer Edge.Cuts) (width 0.1))
   (gr_line (start 139.954 92.71) (end 153.162 92.71) (angle 90) (layer Edge.Cuts) (width 0.1))
-  (gr_text DFN10 (at 146.5834 104.775) (layer F.SilkS)
-    (effects (font (size 1.2 1.2) (thickness 0.25)))
-  )
-  (gr_text ATtiny13 (at 146.558 97.7646) (layer F.SilkS)
-    (effects (font (size 1.2 1.2) (thickness 0.25)))
+  (gr_text "t13-DFN10 P.A." (at 146.6 97.4) (layer F.SilkS)
+    (effects (font (size 1 1) (thickness 0.25)))
   )
   (gr_line (start 140.208 92.964) (end 152.908 92.964) (angle 90) (layer F.SilkS) (width 0.2) (tstamp 53270B50))
   (gr_line (start 152.908 92.964) (end 152.908 109.22) (angle 90) (layer F.SilkS) (width 0.2) (tstamp 53270B4F))
