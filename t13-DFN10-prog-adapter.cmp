@@ -1,0 +1,31 @@
+Cmp-Mod V01 Created by CvPcb (2014-03-16 BZR 4752)-product date = Mon 17 Mar 2014 02:36:49 PM CET
+
+BeginCmp
+TimeStamp = /5326F3AC;
+Reference = JP1;
+ValeurCmp = AVR_ISP;
+IdModule  = my_parts:MADW__PIN_ARRAY_3x2_2.54mm;
+EndCmp
+
+BeginCmp
+TimeStamp = /5326F1F8;
+Reference = P1;
+ValeurCmp = CONN_5;
+IdModule  = my_parts:MADW__SIL-5;
+EndCmp
+
+BeginCmp
+TimeStamp = /5326F1E4;
+Reference = P2;
+ValeurCmp = CONN_5;
+IdModule  = my_parts:MADW__SIL-5;
+EndCmp
+
+BeginCmp
+TimeStamp = /5326F946;
+Reference = P3;
+ValeurCmp = DFN10;
+IdModule  = my_parts:MADW__MLF10;
+EndCmp
+
+EndListe
