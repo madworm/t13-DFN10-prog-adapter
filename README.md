@@ -2,7 +2,7 @@
 t13-DFN10-prog-adapter
 ======================
 
-LAYOUT FILES: jig to help program ATtiny13-MMU (DFN10) chips without soldering them down. 
+LAYOUT FILES: jig to help program ATtiny13-MMU (DFN10, 3x3mm, 0.5mm) chips without soldering them down. 
 
 
 ---
